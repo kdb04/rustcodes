@@ -16,7 +16,7 @@ fn Ref(param_no: &mut i32){
 }
 
 fn call_by_value(){
-    let mut num:i32 = 10;
+    let num:i32 = 10;
     println!("Value:{}", num);
     println!("Call by value");
     val(num);
